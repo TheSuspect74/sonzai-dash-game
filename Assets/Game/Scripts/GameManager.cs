@@ -127,7 +127,7 @@ public class GameManager : MonoBehaviour
         if (elapsedTime >= updateInterval)
         {
             float fps = frameCount / elapsedTime;
-            string fpsString = $"{fps:F1}fps";
+            string fpsString = $"{fps:F0}fps";
             textFPS.SetText(fpsString);
             frameCount = 0;
             elapsedTime = 0f;
@@ -135,7 +135,7 @@ public class GameManager : MonoBehaviour
         
         long totalMemory = Profiler.GetTotalAllocatedMemoryLong();
         float memoryMB = totalMemory / (1024f * 1024f);
-        string memString = $"{memoryMB:F2}MB Alloc";
+        string memString = $"{memoryMB:F0}MB Alloc";
         textMem.SetText(memString);
     }
     
