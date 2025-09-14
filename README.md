@@ -14,5 +14,5 @@ Player will force to input name before proceeding to gameplay.
 # Known Issues
 I have never setup nakama beforehand, so I didn't include any of nakama functions in this project.
 
-# Link to screenshots and gameplay video
+# Link to build (.rar file), screenshots, and gameplay video
 https://drive.google.com/drive/folders/123WwcKugzb5RQk_AyN25IaM86spX8vwV?usp=drive_link
